@@ -266,7 +266,7 @@ npm run build
 
 ### 🌟 如果觉得有帮助,请给个Star吧!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/ai-testing-platform&type=Date)](https://star-history.com/C1nfy/ai-testing-platform&Date)
+
 
 <br/>
 
