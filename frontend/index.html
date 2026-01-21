@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI自动化测试平台</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>🚀 AI自动化测试平台</h1>
+      <p>多AI引擎支持 | 智能分析 | 自动生成</p>
+    </header>
+
+    <main>
+      <!-- AI选择器 -->
+      <section id="ai-selector">
+        <h2>选择 AI 引擎</h2>
+        <div id="providers-list"></div>
+      </section>
+
+      <!-- 测试配置 -->
+      <section id="test-config">
+        <h2>测试配置</h2>
+        <form id="config-form">
+          <input type="text" id="url" placeholder="测试网站URL" required>
+          <input type="text" id="username" placeholder="用户名">
+          <input type="password" id="password" placeholder="密码">
+          <input type="text" id="tabName" placeholder="目标TAB名称">
+          <input type="text" id="testData" placeholder="测试数据">
+          <button type="submit">开始测试</button>
+        </form>
+      </section>
+
+      <!-- 结果显示 -->
+      <section id="results">
+        <h2>测试结果</h2>
+        <div id="results-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

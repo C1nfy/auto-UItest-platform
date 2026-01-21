@@ -1,0 +1,25 @@
+{
+  "default": "deepseek",
+  "providers": {
+    "deepseek": {
+      "enabled": true,
+      "name": "DeepSeek",
+      "baseURL": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat",
+      "maxTokens": 4000,
+      "temperature": 0.7,
+      "costPerToken": 0.0000001,
+      "description": "性价比最高，速度快，适合高频测试"
+    },
+    "claude": {
+      "enabled": true,
+      "name": "Claude",
+      "baseURL": "https://api.anthropic.com",
+      "model": "claude-sonnet-4-20250514",
+      "maxTokens": 4000,
+      "temperature": 0.7,
+      "costPerToken": 0.000003,
+      "description": "最智能，理解力最强，适合复杂分析"
+    }
+  }
+}
